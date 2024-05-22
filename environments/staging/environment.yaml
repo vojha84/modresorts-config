@@ -1,0 +1,13 @@
+version: 1.0
+app:
+  instances:
+    min: 1
+    max: 1
+  version: 5699c4f7-9501-483d-95a8-9fa6993cd8a4
+  env:
+    - name: JVM_ARGS
+      value: "-DenvironmentType=stage"
+    - name: io_openliberty_sample_system_inMaintenance
+      value: "false"
+    - name: testValue
+      value: "testData"

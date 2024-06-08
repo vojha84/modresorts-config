@@ -6,8 +6,8 @@ app:
   version: 975ec646-9125-498a-9ed3-ca510e31f500
   env:
     - name: JVM_ARGS
-      value: "-DenvironmentType=stage"
-    - name: io_openliberty_sample_system_inMaintenance
-      value: "false"
-    - name: testValue
+      value: "-DenvironmentType=prod"
+    - name: test_Value
       value: "testData"
+    - name: MAX
+      value: "5"

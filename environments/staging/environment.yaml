@@ -10,8 +10,8 @@ app:
   version: ""
   env:
     - name: JVM_ARGS
-      value: "-DenvironmentType=stage"
-    - name: io_openliberty_sample_system_inMaintenance
-      value: "false"
-    - name: testValue
+      value: "-DenvironmentType=prod"
+    - name: test_Value
       value: "testData"
+    - name: MAX
+      value: "5"

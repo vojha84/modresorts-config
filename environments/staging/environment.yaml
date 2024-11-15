@@ -1,6 +1,6 @@
 version: 1.0
 app:
-  endpoints: public
+  #endpoints: public
   services:
     - crn: 'crn:v1:bluemix:public:mqcloud:us-east:a/26a5e866a11a5014f2eca2acab86f048:123019ac-5871-4f20-8e10-1207b38721fc::'
   #  - name: mq-service

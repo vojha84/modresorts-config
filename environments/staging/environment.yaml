@@ -8,7 +8,7 @@ app:
   instances:
     min: 1
     max: 1
-  version: ""
+  version: "3eb37fea-9595-4e1f-959a-0fbeb69bbad3"
   env:
     - name: JVM_ARGS
       value: "-DenvironmentType=prod"

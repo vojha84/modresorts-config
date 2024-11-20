@@ -3,6 +3,7 @@ app:
   endpoints: public
   services:
     - crn: 'crn:v1:bluemix:public:mqcloud:us-east:a/26a5e866a11a5014f2eca2acab86f048:123019ac-5871-4f20-8e10-1207b38721fc::'
+    - crn: 'crn:v1:bluemix:public:dashdb-for-transactions:us-east:a/26a5e866a11a5014f2eca2acab86f048:2aad950f-9ab0-4adb-a64e-cb97b3dff0c1::'
   #  - name: mq-service
   #    type: mqcloud
   instances:

@@ -52,4 +52,3 @@ app:
       value: "AMAModResortsQM1"
     - name: jmsQueue_DefaultNode01_MQQueue_1723730589412_baseQueueName
       value: "DEV.QUEUE.1"
-

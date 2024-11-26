@@ -1,15 +1,22 @@
 version: 1.0
 app:
-  endpoints: public
+  # build id to deploy. if 'version' is commented out, the application is not deployed
   services:
     - crn: 'crn:v1:bluemix:public:mqcloud:us-east:a/26a5e866a11a5014f2eca2acab86f048:123019ac-5871-4f20-8e10-1207b38721fc::'
-  #  - crn: 'crn:v1:bluemix:public:dashdb-for-transactions:us-east:a/26a5e866a11a5014f2eca2acab86f048:2aad950f-9ab0-4adb-a64e-cb97b3dff0c1::'
-  #  - name: mq-service
-  #    type: mqcloud
-  instances:
-    min: 1
-    max: 1
   version: ""
+  # number of instances
+  instances:
+    # min number of instances. can be 0 for scale to 0. default to 1.
+    min: 1
+    # max number of instances. defaults to 1 if min == 0, otherwise defaults to min
+    max: 1
+  resources:
+    # max cpu. memory limit is based on cpu value: 1:3 memory ratio, e.g. 1 cpu == 4 gb
+    cpu: 1
+  # Whether to expose the application publically or not
+  endpoints: public
+
+  # List of environment variables that are set for the application
   env:
     - name: JVM_ARGS
       value: "-DenvironmentType=prod"
@@ -17,3 +24,31 @@ app:
       value: "testData"
     - name: MAX
       value: "5"
+  variables:
+    - name: io_openliberty_sample_system_inMaintenance
+      value: "false"
+    - name: httpEndpoint_port
+      value: "9080"
+    - name: httpEndpoint_secure_port
+      value: "9443"
+    - name: httpEndpoint_host
+      value: "*"
+
+#    - name: NodeDefaultSSLSettings_DefaultCell01_SSLConfig_DefaultNode01_1_sslProtocol
+#      value: "TLSv1.3,TLSv1.2"
+# DB2
+    - name: ModResortsDs_DefaultNode01_DataSource_1723730612222_portNumber
+      value: "32680"
+    - name: ModResortsDs_DefaultNode01_DataSource_1723730612222_serverName
+      value: "2aad950f-9ab0-4adb-a64e-cb97b3dff0c1.bs2ipa7w0uv9tsomi9ig.databases.appdomain.cloud"
+    - name: ModResortsDs_DefaultNode01_DataSource_1723730612222_databaseName
+      value: "bludb"
+# MQ      
+    - name: MQ_DefaultNode01_cf_channel
+      value: "CLOUD.APP.SVRCONN"
+    - name: MQ_DefaultNode01_cf_host
+      value: "modresortsqm1-c8d1.qm1230.private.us-east.mq2.appdomain.cloud"
+    - name: MQ_DefaultNode01_cf_queueManager
+      value: "AMAModResortsQM1"
+    - name: jmsQueue_DefaultNode01_MQQueue_1723730589412_baseQueueName
+      value: "DEV.QUEUE.1"

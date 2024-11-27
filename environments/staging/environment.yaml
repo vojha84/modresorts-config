@@ -19,7 +19,7 @@ app:
 
   # List of environment variables that are set for the application
   env:
-    #- name: JVM_ARGS 
+    #- name: JVM_ARGS
     #  value: "-DenvironmentType=prod"
     - name: test_Value
       value: "testData"

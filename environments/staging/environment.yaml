@@ -3,7 +3,7 @@ app:
   # build id to deploy. if 'version' is commented out, the application is not deployed
   services:
     - crn: 'crn:v1:bluemix:public:mqcloud:us-east:a/26a5e866a11a5014f2eca2acab86f048:123019ac-5871-4f20-8e10-1207b38721fc::'
-    - crn: 'crn:v1:bluemix:public:dashdb-for-transactions:us-east:a/26a5e866a11a5014f2eca2acab86f048:2aad950f-9ab0-4adb-a64e-cb97b3dff0c1::'
+  #  - crn: 'crn:v1:bluemix:public:dashdb-for-transactions:us-east:a/26a5e866a11a5014f2eca2acab86f048:2aad950f-9ab0-4adb-a64e-cb97b3dff0c1::'
   version: "0a11eb9d-62e2-4a78-aecd-7a5b27789335"
   # number of instances
   instances:

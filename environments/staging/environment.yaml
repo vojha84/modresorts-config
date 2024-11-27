@@ -39,9 +39,9 @@ app:
 #      value: "TLSv1.3,TLSv1.2"
 # DB2
     - name: ModResortsDs_DefaultNode01_DataSource_1723730612222_portNumber
-      value: "32680"
+      value: "31827"
     - name: ModResortsDs_DefaultNode01_DataSource_1723730612222_serverName
-      value: "2aad950f-9ab0-4adb-a64e-cb97b3dff0c1.bs2ipa7w0uv9tsomi9ig.databases.appdomain.cloud"
+      value: "f1e09ded-5f2f-4b5b-bc74-f2d593110a0f.bs2ipa7w0uv9tsomi9ig.private.databases.appdomain.cloud"
     - name: ModResortsDs_DefaultNode01_DataSource_1723730612222_databaseName
       value: "bludb"
 # MQ      

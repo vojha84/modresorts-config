@@ -44,11 +44,11 @@ app:
     - name: ModResortsDs_DefaultNode01_DataSource_1723730612222_databaseName
       value: "bludb"
 # MQ      
-    - name: MQ_DefaultNode01_cf_channel
+    - name: MMXQueueConnectionFactory_demo_data_vm1Node01_MQQueueConnectionFactory_1680277838658_channel
       value: "CLOUD.APP.SVRCONN"
-    - name: MQ_DefaultNode01_cf_host
+    - name: MMXQueueConnectionFactory_demo_data_vm1Node01_MQQueueConnectionFactory_1680277838658_host
       value: "modresortsqm1-c8d1.qm1230.private.us-east.mq2.appdomain.cloud"
-    - name: MQ_DefaultNode01_cf_queueManager
+    - name: MMXQueueConnectionFactory_demo_data_vm1Node01_MQQueueConnectionFactory_1680277838658_queueManager
       value: "AMAModResortsQM1"
-    - name: jmsQueue_DefaultNode01_MQQueue_1723730589412_baseQueueName
+    - name: MMXQueue_demo_data_vm1Node01_MQQueue_1680278221800_baseQueueName
       value: "DEV.QUEUE.1"

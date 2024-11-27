@@ -3,7 +3,8 @@ app:
   # build id to deploy. if 'version' is commented out, the application is not deployed
   services:
     - crn: 'crn:v1:bluemix:public:mqcloud:us-east:a/26a5e866a11a5014f2eca2acab86f048:123019ac-5871-4f20-8e10-1207b38721fc::'
-  #  - crn: 'crn:v1:bluemix:public:dashdb-for-transactions:us-east:a/26a5e866a11a5014f2eca2acab86f048:2aad950f-9ab0-4adb-a64e-cb97b3dff0c1::'
+    # no need for CRN if using a public endpoint
+    #- crn: 'crn:v1:bluemix:public:dashdb-for-transactions:us-east:a/26a5e866a11a5014f2eca2acab86f048:f1e09ded-5f2f-4b5b-bc74-f2d593110a0f::'
   version: "8b927a62-eea1-4449-8f20-d0aeda230aca"
   # number of instances
   instances:
@@ -39,9 +40,10 @@ app:
 #      value: "TLSv1.3,TLSv1.2"
 # DB2
     - name: ModResortsDs_DefaultNode01_DataSource_1723730612222_portNumber
-      value: "32680"
+      value: "31827"
+      #public hostname is different to private one
     - name: ModResortsDs_DefaultNode01_DataSource_1723730612222_serverName
-      value: "2aad950f-9ab0-4adb-a64e-cb97b3dff0c1.bs2ipa7w0uv9tsomi9ig.databases.appdomain.cloud"
+      value: "f1e09ded-5f2f-4b5b-bc74-f2d593110a0f.bs2ipa7w0uv9tsomi9ig.databases.appdomain.cloud"
     - name: ModResortsDs_DefaultNode01_DataSource_1723730612222_databaseName
       value: "bludb"
 # MQ      

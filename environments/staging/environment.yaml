@@ -4,7 +4,7 @@ app:
   services:
     - crn: 'crn:v1:bluemix:public:mqcloud:us-east:a/26a5e866a11a5014f2eca2acab86f048:123019ac-5871-4f20-8e10-1207b38721fc::'
     # no need for CRN if using a public endpoint
-    #- crn: 'crn:v1:bluemix:public:dashdb-for-transactions:us-east:a/26a5e866a11a5014f2eca2acab86f048:f1e09ded-5f2f-4b5b-bc74-f2d593110a0f::'
+    - crn: 'crn:v1:bluemix:public:dashdb-for-transactions:us-east:a/26a5e866a11a5014f2eca2acab86f048:f1e09ded-5f2f-4b5b-bc74-f2d593110a0f::'
   version: "65666cf4-1660-476f-a65e-59c7e76f897d"
   # number of instances
   instances:
@@ -43,10 +43,10 @@ app:
       value: "31827"
       #public hostname is different to private one
     - name: ModResortsDs_DefaultNode01_DataSource_1723730612222_serverName
-      value: "f1e09ded-5f2f-4b5b-bc74-f2d593110a0f.bs2ipa7w0uv9tsomi9ig.databases.appdomain.cloud"
+      value: "f1e09ded-5f2f-4b5b-bc74-f2d593110a0f.bs2ipa7w0uv9tsomi9ig.private.databases.appdomain.cloud"
     - name: ModResortsDs_DefaultNode01_DataSource_1723730612222_databaseName
       value: "bludb"
-# MQ      
+# MQ
     - name: MMXQueueConnectionFactory_demo_data_vm1Node01_MQQueueConnectionFactory_1680277838658_channel
       value: "CLOUD.APP.SVRCONN"
     - name: MMXQueueConnectionFactory_demo_data_vm1Node01_MQQueueConnectionFactory_1680277838658_host

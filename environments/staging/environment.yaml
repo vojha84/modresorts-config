@@ -5,7 +5,7 @@ app:
     - crn: 'crn:v1:bluemix:public:mqcloud:us-east:a/26a5e866a11a5014f2eca2acab86f048:123019ac-5871-4f20-8e10-1207b38721fc::'
     # no need for CRN if using a public endpoint
     #- crn: 'crn:v1:bluemix:public:dashdb-for-transactions:us-east:a/26a5e866a11a5014f2eca2acab86f048:f1e09ded-5f2f-4b5b-bc74-f2d593110a0f::'
-  version: ""
+  version: "696d4760-1394-4086-98ba-3c55d1e9406e"
   # number of instances
   instances:
     # min number of instances. can be 0 for scale to 0. default to 1.

@@ -40,10 +40,10 @@ app:
 #      value: "TLSv1.3,TLSv1.2"
 # DB2
     - name: ModResortsDs_DefaultNode01_DataSource_1723730612222_portNumber
-      value: "30518"
+      value: "30842"
       #public hostname is different to private one
     - name: ModResortsDs_DefaultNode01_DataSource_1723730612222_serverName
-      value: "eba962d1-9a71-42f7-a322-0853e4084502-useast-private.bt1ibm.db2.ibmappdomain.cloud"
+      value: "27609103-93de-4c18-9f0f-b4dcc8aa9e45-useast-private.bt1ibm.db2.ibmappdomain.cloud"
     - name: ModResortsDs_DefaultNode01_DataSource_1723730612222_databaseName
       value: "BLUDB"
 # MQ

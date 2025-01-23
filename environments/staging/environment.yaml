@@ -12,7 +12,7 @@ app:
     min: 1
     # max number of instances. defaults to 1 if min == 0, otherwise defaults to min
     max: 1
-  version: ""
+  version: "749882e8-52f3-497a-aee6-4d99f789a71f"
   resources:
     # max cpu. memory limit is based on cpu value: 1:3 memory ratio, e.g. 1 cpu == 4 gb
     cpu: 1

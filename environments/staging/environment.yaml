@@ -52,7 +52,7 @@ app:
     - name: MMXQueueConnectionFactory_demo_data_vm1Node01_MQQueueConnectionFactory_1680277838658_channel
       value: "CLOUD.APP.SVRCONN"
     - name: MMXQueueConnectionFactory_demo_data_vm1Node01_MQQueueConnectionFactory_1680277838658_host
-      value: "amamodresortsqm1-51df.qm1230.private.us-east.mq2.appdomain.cloud"
+      value: "amamodresortsqm1-8005.qm1230.private.us-east.mq2.appdomain.cloud"
     - name: MMXQueueConnectionFactory_demo_data_vm1Node01_MQQueueConnectionFactory_1680277838658_queueManager
       value: "AMAModResortsQM1"
     - name: MMXQueue_demo_data_vm1Node01_MQQueue_1680278221800_baseQueueName

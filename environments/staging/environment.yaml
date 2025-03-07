@@ -57,4 +57,3 @@ app:
       value: "AMAModResortsQM1"
     - name: MMXQueue_demo_data_vm1Node01_MQQueue_1680278221800_baseQueueName
       value: "DEV.QUEUE.1"
-	

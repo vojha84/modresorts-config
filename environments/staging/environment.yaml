@@ -27,7 +27,7 @@ app:
     - name: test_Value
       value: "testData"
     - name: MAX
-      value: "5"
+      value: "6"
   variables:
     - name: io_openliberty_sample_system_inMaintenance
       value: "false"

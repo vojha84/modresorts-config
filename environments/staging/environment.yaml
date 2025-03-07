@@ -27,7 +27,7 @@ app:
     - name: test_Value
       value: "testData"
     - name: MAX
-      value: "5"
+      value: "6"
   variables:
     - name: io_openliberty_sample_system_inMaintenance
       value: "false"
@@ -57,6 +57,4 @@ app:
       value: "AMAModResortsQM1"
     - name: MMXQueue_demo_data_vm1Node01_MQQueue_1680278221800_baseQueueName
       value: "DEV.QUEUE.1"
-	- name: dummy
-      value: "dummy value"
 	
